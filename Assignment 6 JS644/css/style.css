@@ -1,0 +1,31 @@
+body {
+    background: #d4e3ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    margin: auto 50px;
+}
+button {
+    display: block;
+    color: #1ab44d;
+    font-size: 25px;
+    margin: 20px auto;
+    border: 2px;
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+}
+input, select {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 3px;
+}      
+.emptable  {
+    border-bottom: solid 2px #000000;
+}
+thead th:nth-of-type(1), th:nth-of-type(2), th:nth-of-type(3),th:nth-of-type(4){
+    border-bottom: darkgrey 1px solid;
+}

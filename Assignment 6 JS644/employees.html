@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Management Application</title>
+    <script src="js/employee-management.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="add-input text-center text-light my-4">
+            <h2 class="mb-4">Employee Management Application</h2>
+
+                <h3>Add an employee</h3>
+                <input type="text" class="form-control mb-2" name="name" placeholder="employee name">
+                <input type="text" class="form-control mb-2" name="title" placeholder="title">
+                <input type="text" class="form-control mb-4" name="extension" placeholder="extension">
+                <button class="addBtn" type="submit" name="submit" value="submit">Add</button>
+            </form>
+        </header>
+    </div>
+    <div class="table mx-auto text-light">
+        <table class="table row-count table-striped table-dark" cellpadding="10">
+            <div class="table-rows count mx-auto text-light">
+                <h3>Showing <span class="emplCount mb-4">0</span> Employees</h3>
+            </div>
+        <div class="emptable">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Extension</th>
+                </tr>
+            </thead>
+        </div>
+            <tbody class="list">
+                <tr>
+                    <th scope="row">Tiffany</th>
+                    <td>Archer</td>
+                    <td>111</td>
+                    <td>
+                        <i class="far fa-trash-alt delete"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Matthew</th>
+                    <td>Rogue</td>
+                    <td>222</td>
+                    <td>
+                        <i class="far fa-trash-alt delete"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Amy</th>
+                    <td>Mage</td>
+                    <td>333</td>
+                    <td>
+                        <i class="far fa-trash-alt delete"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Mike</th>
+                    <td>Bard</td>
+                    <td>444</td>
+                    <td>
+                        <i class="far fa-trash-alt delete"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Sydney</th>
+                    <td>Healer</td>
+                    <td>555</td>
+                    <td>
+                        <i class="far fa-trash-alt delete"></i>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+ 
+
+    <script src="js/employee-management.js"></script>
+</body>
+
+</html>
